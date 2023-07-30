@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            /* height: 3000px; */
+        }
+
+        .navbar {
+            height: 70px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            position: sticky;
+            top: 0px;
+        }
+
+        .navbar ul li {
+            display: inline-block;
+            margin-left: 40px;
+            margin-top: 25px;
+        }
+
+        .container {
+            width: 50vw;
+            height: 50vh;
+            background-color: aqua;
+            margin: auto;
+            padding: 50px 0px;
+        }
+
+        .container p {
+            border: 2px solid red;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            position: fixed;
+            left: 0px;
+            bottom: 0px;
+        }
+
+        .box2 {
+            width: 200px;
+            height: 40px;
+            background-color: blue;
+            position: relative;
+            bottom: 303px;
+            left: 290px;
+        }
+
+        .list {
+            width: 100vw;
+            height: 100px;
+            text-align: center;
+            list-style: disc;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="container">
+       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam nihil exercitationem officiis a dignissimos impedit labore ut ipsam rem dolorum. Dolores voluptate architecto sed distinctio rerum, dolore, ipsum quisquam ipsa consequuntur, eos provident eveniet et tempore sequi molestiae quia.</p>
+        <div class="box">
+            I am a box
+        </div>
+        <div class="box2">
+            hello
+        </div>
+    </div>
+    <div class="list">
+        <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Grapes</li>
+        </ul>
+    </div>
+</body>
+</html>
